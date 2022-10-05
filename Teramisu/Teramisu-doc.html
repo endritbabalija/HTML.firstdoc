@@ -4,109 +4,316 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="tiramisu project">
+    <meta name="author" content="Endrit Babalija">
     <title>Teramisu Recipe</title>
+    <link rel="style" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Justus-Oldstyle' ;
+            src: url(./fonts/Justus-Oldstyle.ttf);
+            font-family: 'PALSCRI' ;
+            src: url(./fonts/PALSCRI.TTF);
+        }
+
+        :root {
+            --containerwidth-width: 100%;
+            --containercolor-background-color: #fed6d6;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+       }     
+
+       .container {
+        width: 100%;
+        height: 3500px;
+        margin: 0px;
+        padding: 0px;
+        background-color: #fed6d6;
+        background-image: url(./img/Front1.png) ;
+        background-size: 100%;         
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        
+        position: absolute;
+        
+        /* border: 1px solid; */
+        text-align: center;
+        z-index: 1;
+        
+       }
+
+       
+
+       #P1 {
+        font-family: 'Justus';
+        font-size: 50px;
+        text-transform: uppercase;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 110px;
+       
+       }
+
+       h1 {
+            font-family: 'Justus';
+            font-size: 280px;
+            color: white; opacity: 40%;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            /* border: 1px solid; */
+            text-transform: uppercase;
+       }
+
+       #P2 {
+        font-family: 'Palscri';
+        font-size: 250px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: -450px;
+
+       }
+
+       table {
+        width: 900px;
+        padding: 10px;
+        background-color: white;
+        position: relative;
+        top: 800px;
+        margin: 25px auto;
+        border: 1px solid black;
+        box-shadow: 5px 10px #888888;
+        z-index: 2;
+
+       }
+
+       table {
+        transition-delay: 0.2s;
+        transition-duration: 2s;
+
+       }
+
+       table:hover {
+        background-color: #fed6d6;
+       }
+
+
+       
+       li {
+        width: 800px;
+        margin: 10px;
+         ;
+        color: black;
+        padding-right: 0px;
+        margin-right: 0px;
+        border: 1px solid black;
+        box-shadow: 5px 5px #888888;
+        
+       }
+       
+       li {
+        transition-delay: 0.1s;
+        transition-duration: 0.2s;
+       }
+
+       li:hover {
+        color: white;
+        background-color: #888888;
+       }
+
+
+
+       iframe {
+        border: 5px solid #888888;
+        width: 900px;
+        height: 200px; 
+       }
+
+       .photo1 {
+        border: 2px solid;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        padding: 0px;
+        border-radius: 50%;
+        border: 1px solid #888888;
+       }
+
+       /* #Box-T {
+        margin: 0%;
+        padding: 0%;
+        font-size: 50px;
+        opacity: 10%;
+        position: relative;
+       } */
+
+       .header1 {
+        height: 100px;
+        position: relative;
+        top: 50px;
+        
+       }
+
+       i {
+        color: black;
+        background-color: rgba(146, 143, 143, 0.3);
+        
+       }
+
+       audio {
+        /* box-shadow: #888888 0.3; */
+       }
+      
+       
+
+       
+
+      
+
+        
+    </style>
 </head>
-<body background="./img/Background.jpg">
-    </table>
-    <table width="900" align="center">
-        <br>
-        <h3 align="center">Do you want to make a cake?</h3>
-        <tr>
-            <td>
-                <h1>
+<body>
+    <header>
+        <div class="container">
+            <div class="header1">
+                <p id="P1">Make a delicious cake with us!</p>
+                <h1 >
                     Tiramisu
                 </h1>
-            </td>
-            <td></td>
-            <td align="right">
-                <a href="https://www.amazon.com/"> Order Now!</a>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                Posted on <em> June 13, 2019 </em> / Posted in <a href="#"> Delicious cakes </a>
-            </td>
-            <td>
-                <audio src="./audio/Y2Mate.is - CAKE  CUTTING BACKGROUND MUSICNO COPYRIGHT MUSIC-Q6GvsMve6xg-160k-1654233494792.mp3" type="audio/mpeg" controls autoplay>
-                </audio>
-            </td>
-        </tr> 
-        <tr>
-            <td><img src="./img/s1.jpg" width="300" alt=></td>
-            <td><img src="./img/s2.jpg" width="300" alt=></td>
-            <td><img src="./img/s3.jpg" width="300" alt=></td>
-        </tr>
-        <tr>
-            <td align="left" colspan="3">
-                <p><b>Tiramisu</b> is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a creamy lightly sweetened mascarpone cream. This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I’ve ever tried.
-                    <br><br>
-                    A couple months ago, I was sent a new cookbook called Happiness is Baking. This cookbook includes Maida Heatter’s favorite recipes with the foreword written by Dorie Greenspan. I, unsurprisingly, immediately fell in love with my newest cookbook. It’s a collection of 100 foolproof and classic desserts including cookies, cakes, muffins, pies, tarts, and more that range from simple everyday cookies to outrageously indulgent chocolate soufflé cake.
-                </p>
-                <h3>Ingredients</h3>
-                <ul>
-                    <li>1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature</li>
-                    <li>6 Tablespoons (90ml) Grand Marnier*</li>
-                    <li>40–45 ladyfingers*</li>
-                    <li>16 ounces (about 2 cups; 450g) mascarpone, cold or at room temperature</li>
-                    <li>1/4 cup (60ml) dark rum</li>
-                    <li>4 large pasteurized eggs, separated*</li>
-                    <li>1/2 cup (100g) granulated sugar, divided*</li>
-                    <li>2 cups (480ml) heavy cream or heavy whipping cream</li>
-                    <li>1/2 teaspoon pure vanilla extract</li>
-                    <li>1/8 teaspoon salt</li>
-                    <li>unsweetened natural or dutch-process cocoa powder</li>
-                </ul>
-                <p>
-                    For those not familiar, Maida Heatter is an icon, especially in the baking world. Dubbed the Queen of Cake, her expansive culinary career included 9 cookbooks, recipes for the Times, a restaurant, and three James Beard Awards. Baker and author Dorie Greenspan once said “Whenever someone tells me they want to learn to bake, I tell them to start with Maida Heatter’s books. That’s what I did.” This latest cookbook is a testament to Maida’s legacy. She passed away only 2 months after this book was published. She leaves behind an incalculable amount of inspiration to bakers and cooks all over the world.
-                </p>
-                <br>
-                <img src="./img/tiramisu.jpg" width="500">
-                <br><br>
-                <h3>
-                    Common Tiramisu Questions - Answered
-                </h3>
-                <dl>
-                    <dt>
-                        <b>What kind of rum do I use in tiramisu?</b>  
-                    </dt>
-                    <dd>
-                        <i>"Rum is best, but you can use brandy or your favorite coffee liqueur".</i>
-                    </dd>
-                    <br><br>
-                    <dt>
-                        <b>Egg whites or whipped cream?</b>
-                    </dt>
-                    <dd>
-                        <i>"Most tiramisu recipes use whipped egg whites OR whipped cream in the mascarpone cream layers. Egg whites contribute a more airy texture, while whipped cream makes the filling a bit more rich. This recipe actually uses both, so you’re getting both delightful textures."</i>
-                    </dd>
-                    <br><br>
-                    <dt>
-                        <b>Are the eggs cooked?</b>
-                    </dt>
-                    <dd>
-                        <i>"Tiramisu is a no-bake dessert. The egg yolks are gently cooked on the stovetop, but the egg whites are raw. Purchase pasteurized eggs because they are safe to consume raw."</i>
-                    </dd>
-                    <br><br>
-                    <dt><b>What size pan to use?</b></dt>
-                    <dd>
-                        <i>"This particular tiramisu recipe yields a large volume and the pan will be very full. Make sure your pan is large enough. I recommend a 9×13 inch dish with at least a 12-14 cup capacity. This 4 quart dish is wonderful too."</i>
-                    </dd>
-                    <br><br>
+                <p id="P2">Tiramisu</p></div>
+            </div>
+            
+             <div class="foreground">
+                
+             </div>
 
-                    <h3>
-                        How to make a Tiramisu
-                    </h3>
-                    <video src=
-                    "./video/Easy TIRAMISU Cake _ No-Bake Dessert.mp4" controls width="500">
-                    </video>
+    </header>
+
+    
+    <div class="Box">
+
+        <div class="Ad">
+
+        </div>
+        <table>
+            <br>
+            <tr>
+                <td>
+                    <h2 id="Box-T">
+                        Tiramisu
+                    </h2>
+                </td>
+                <td></td>
+                <td align="right">
+                    <a href="https://www.amazon.com/"> Order Now!</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Posted on <em> June 13, 2019 </em> / Posted in <a href="#"> Delicious cakes </a>
+                </td>
+                <td>
+                    <div id="audiobox">
+                        <audio src="./audio/Y2Mate.is - CAKE  CUTTING BACKGROUND MUSICNO COPYRIGHT MUSIC-Q6GvsMve6xg-160k-1654233494792.mp3" type="audio/mpeg" controls >
+                        </audio>
+                    </div>
                     
+                </td>
+            </tr> 
+            <tr>
+                <div class="photocontainer">
+                    <td>
+                        <img class="photo1" src="./img/s1.jpg" alt=>
+                    </td>
+                    <td>
+                        <img class="photo1" src="./img/s2.jpg" alt=>
+                    </td>
+                    <td>
+                        <img class="photo1" src="./img/s3.jpg" alt=>
+                    </td>
+                </div>
+                
+                
+            </tr>
+            <tr>
+                <td  colspan="3">
+                    <p><b>Tiramisu</b> is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a creamy lightly sweetened mascarpone cream. This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I’ve ever tried.
+                        <br><br>
+                        A couple months ago, I was sent a new cookbook called Happiness is Baking. This cookbook includes Maida Heatter’s favorite recipes with the foreword written by Dorie Greenspan. I, unsurprisingly, immediately fell in love with my newest cookbook. It’s a collection of 100 foolproof and classic desserts including cookies, cakes, muffins, pies, tarts, and more that range from simple everyday cookies to outrageously indulgent chocolate soufflé cake.
+                    </p>
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature</li>
+                        <li>6 Tablespoons (90ml) Grand Marnier*</li>
+                        <li>40–45 ladyfingers*</li>
+                        <li>16 ounces (about 2 cups; 450g) mascarpone, cold or at room temperature</li>
+                        <li>1/4 cup (60ml) dark rum</li>
+                        <li>4 large pasteurized eggs, separated*</li>
+                        <li>1/2 cup (100g) granulated sugar, divided*</li>
+                        <li>2 cups (480ml) heavy cream or heavy whipping cream</li>
+                        <li>1/2 teaspoon pure vanilla extract</li>
+                        <li>1/8 teaspoon salt</li>
+                        <li>unsweetened natural or dutch-process cocoa powder</li>
+                    </ul>
+                    <p>
+                        For those not familiar, Maida Heatter is an icon, especially in the baking world. Dubbed the Queen of Cake, her expansive culinary career included 9 cookbooks, recipes for the Times, a restaurant, and three James Beard Awards. Baker and author Dorie Greenspan once said “Whenever someone tells me they want to learn to bake, I tell them to start with Maida Heatter’s books. That’s what I did.” This latest cookbook is a testament to Maida’s legacy. She passed away only 2 months after this book was published. She leaves behind an incalculable amount of inspiration to bakers and cooks all over the world.
+                    </p>
+                    <br>
+                    <img src="./img/tiramisu.jpg" width="500">
                     <br><br>
-                    <h4><b>Get direction</b></h4>
+                    <h3>
+                        Common Tiramisu Questions - Answered
+                    </h3>
+                    <dl>
+                        <dt>
+                            <b>What kind of rum do I use in tiramisu?</b>  
+                        </dt>
+                        <dd>
+                            <i>"Rum is best, but you can use brandy or your favorite coffee liqueur".</i>
+                        </dd>
+                        <br><br>
+                        <dt>
+                            <b>Egg whites or whipped cream?</b>
+                        </dt>
+                        <dd>
+                            <i>"Most tiramisu recipes use whipped egg whites OR whipped cream in the mascarpone cream layers. Egg whites contribute a more airy texture, while whipped cream makes the filling a bit more rich. This recipe actually uses both, so you’re getting both delightful textures."</i>
+                        </dd>
+                        <br><br>
+                        <dt>
+                            <b>Are the eggs cooked?</b>
+                        </dt>
+                        <dd>
+                            <i>"Tiramisu is a no-bake dessert. The egg yolks are gently cooked on the stovetop, but the egg whites are raw. Purchase pasteurized eggs because they are safe to consume raw."</i>
+                        </dd>
+                        <br><br>
+                        <dt><b>What size pan to use?</b></dt>
+                        <dd>
+                            <i>"This particular tiramisu recipe yields a large volume and the pan will be very full. Make sure your pan is large enough. I recommend a 9×13 inch dish with at least a 12-14 cup capacity. This 4 quart dish is wonderful too."</i>
+                        </dd>
+                        <br><br>
+    
+                        <h3>
+                            How to make a Tiramisu
+                        </h3>
+                        <video id="video"
+                         src=
+                        "./video/Easy TIRAMISU Cake _ No-Bake Dessert.mp4" controls width="500">
+                        </video>
+                        
+                        <br><br>
+                        <h4><b>Get direction</b></h4>
+    
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11789.953210611035!2d20.416649839550775!3d42.374743200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353b1b468537e6b%3A0x67b2c19378232f4f!2sPASTICERIA%20-%20QERSHIA%20%F0%9F%8D%92!5e0!3m2!1ssq!2s!4v1664206557506!5m2!1ssq!2s" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11789.953210611035!2d20.416649839550775!3d42.374743200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353b1b468537e6b%3A0x67b2c19378232f4f!2sPASTICERIA%20-%20QERSHIA%20%F0%9F%8D%92!5e0!3m2!1ssq!2s!4v1664206557506!5m2!1ssq!2s" width="100%" height="200" style="border:0;" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </dl>
-            </td>
-        </tr>
-    </table>
+                        </iframe>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

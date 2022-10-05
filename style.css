@@ -1,0 +1,59 @@
+<style>
+        @font-face {
+            font-family: 'Justus-Oldstyle' ;
+            src: url(./fonts/Justus-Oldstyle.ttf);
+            font-family: 'PALSCRI' ;
+            src: url(./fonts/PALSCRI.TTF);
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+       }     
+
+       .container {
+    width: auto;
+    height: 1000px;
+    padding: 0px;
+    background-image: url(./img/Frong) ;
+    background-size: 100%;         
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border: 1px solid;
+    text-align: center;
+       }
+
+       #P1 {
+        font-family: 'Justus';
+        font-size: 400px;
+        
+        
+        position: relative;
+        top: 400px;
+       }
+
+       h1 {
+            font-family: 'Justus';
+            font-size: 280px;
+            color: white; opacity: 40%;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            border: 1px solid;
+            text-transform: uppercase;
+       }
+
+       #P2 {
+        font-family: 'Palscri';
+        font-size: 250px;
+        width: fit-content;
+        margin: -0px auto;
+       }
+
+
+
+
+
+        
+    </style>
